@@ -1,0 +1,118 @@
+{
+  "source_file": "data/pb_cf/phonebook_qa_128K.csv",
+  "total_sectors": 16,
+  "sector_map": {
+    "0": {
+      "start_index": 0,
+      "end_index": 386,
+      "num_samples": 387,
+      "num_tokens": 7983,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_00.csv"
+    },
+    "1": {
+      "start_index": 387,
+      "end_index": 773,
+      "num_samples": 387,
+      "num_tokens": 7996,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_01.csv"
+    },
+    "2": {
+      "start_index": 774,
+      "end_index": 1160,
+      "num_samples": 387,
+      "num_tokens": 7981,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_02.csv"
+    },
+    "3": {
+      "start_index": 1161,
+      "end_index": 1547,
+      "num_samples": 387,
+      "num_tokens": 7990,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_03.csv"
+    },
+    "4": {
+      "start_index": 1548,
+      "end_index": 1936,
+      "num_samples": 389,
+      "num_tokens": 8000,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_04.csv"
+    },
+    "5": {
+      "start_index": 1937,
+      "end_index": 2324,
+      "num_samples": 388,
+      "num_tokens": 7993,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_05.csv"
+    },
+    "6": {
+      "start_index": 2325,
+      "end_index": 2709,
+      "num_samples": 385,
+      "num_tokens": 7981,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_06.csv"
+    },
+    "7": {
+      "start_index": 2710,
+      "end_index": 3096,
+      "num_samples": 387,
+      "num_tokens": 7982,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_07.csv"
+    },
+    "8": {
+      "start_index": 3097,
+      "end_index": 3483,
+      "num_samples": 387,
+      "num_tokens": 7989,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_08.csv"
+    },
+    "9": {
+      "start_index": 3484,
+      "end_index": 3870,
+      "num_samples": 387,
+      "num_tokens": 7983,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_09.csv"
+    },
+    "10": {
+      "start_index": 3871,
+      "end_index": 4258,
+      "num_samples": 388,
+      "num_tokens": 7999,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_10.csv"
+    },
+    "11": {
+      "start_index": 4259,
+      "end_index": 4645,
+      "num_samples": 387,
+      "num_tokens": 7990,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_11.csv"
+    },
+    "12": {
+      "start_index": 4646,
+      "end_index": 5032,
+      "num_samples": 387,
+      "num_tokens": 7992,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_12.csv"
+    },
+    "13": {
+      "start_index": 5033,
+      "end_index": 5420,
+      "num_samples": 388,
+      "num_tokens": 7994,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_13.csv"
+    },
+    "14": {
+      "start_index": 5421,
+      "end_index": 5807,
+      "num_samples": 387,
+      "num_tokens": 7982,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_14.csv"
+    },
+    "15": {
+      "start_index": 5808,
+      "end_index": 6201,
+      "num_samples": 394,
+      "num_tokens": 8159,
+      "data_file": "data/pb_cf/phonebook_qa_128K_sector_15.csv"
+    }
+  }
+}

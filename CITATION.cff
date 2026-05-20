@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Understanding LoRA as Knowledge Memory"
+authors:
+  - given-names: Seungju
+    family-names: Back
+  - given-names: Dongwoo
+    family-names: Lee
+  - given-names: Naun
+    family-names: Kang
+  - given-names: Taehee
+    family-names: Lee
+  - given-names: S. K.
+    family-names: Hong
+  - given-names: Youngjune
+    family-names: Gwon
+  - given-names: Sungjin
+    family-names: Ahn
+year: 2026
+url: "https://github.com/gnwsb/Understanding-LoRA-as-Knowledge-Memory"
+repository-code: "https://github.com/gnwsb/Understanding-LoRA-as-Knowledge-Memory"
+identifiers:
+  - type: url
+    value: "https://arxiv.org/abs/2603.01097"
+preferred-citation:
+  type: conference-paper
+  title: "Understanding LoRA as Knowledge Memory"
+  authors:
+    - given-names: Seungju
+      family-names: Back
+    - given-names: Dongwoo
+      family-names: Lee
+    - given-names: Naun
+      family-names: Kang
+    - given-names: Taehee
+      family-names: Lee
+    - given-names: S. K.
+      family-names: Hong
+    - given-names: Youngjune
+      family-names: Gwon
+    - given-names: Sungjin
+      family-names: Ahn
+  collection-title: "Proceedings of the 43rd International Conference on Machine Learning"
+  year: 2026

@@ -1,0 +1,33 @@
+experiment:
+  name: paperqa_singlelora_concatenated_qa_natural_r16
+  group: paperqa_singlelora
+  seed: 42
+
+resources:
+  gpus: [0]
+
+output_base_dir: runs/paperqa
+
+model:
+  base_model_id: meta-llama/Llama-3.1-8B-Instruct
+  lora_config:
+    r: 16
+    lora_alpha: 16
+    target_modules: all-linear
+    lora_dropout: 0.1
+    bias: none
+    task_type: CAUSAL_LM
+
+dataset:
+  name: paperqa
+  use_chat_template: true
+
+training:
+  data_path: paperqa/data/concatenated_qa_natural.jsonl
+  method: ntp
+  num_train_steps: 1000
+  learning_rate: 5.0e-05
+  warmup_ratio: 0.1
+  batch_size: 8
+  checkpoint_strategy:
+    policy: none

@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and local secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Experiment files
+runs/
+**/runs/
+outputs/
+**/outputs/
+logs/
+**/logs/
+wandb/
+*.log
+
+# Generated configuration files
+configs/generated/
+**/configs/generated/
+narrativeqa/configs/
+qual/configs/
+
+# Generated data
+paperqa/data/**
+!paperqa/data/
+!paperqa/data/README.md
+narrativeqa/data/**
+!narrativeqa/data/
+!narrativeqa/data/README.md
+qual/data/**
+!qual/data/
+!qual/data/README.md
+data/**/QAprompt.txt
+
+# Local model/checkpoint files
+models/
+**/models/
+!src/models/
+!src/models/**
+src/models/**/__pycache__/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Local caches
+cache/
+.cache/
+hf_cache/
+transformers_cache/
+
+# System/editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp

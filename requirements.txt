@@ -1,0 +1,17 @@
+torch
+transformers
+peft
+accelerate
+datasets
+pandas
+numpy
+pyyaml
+tqdm
+scikit-learn
+sentence-transformers
+faiss-cpu
+evaluate
+rouge-score
+nltk
+openai
+langchain-text-splitters
